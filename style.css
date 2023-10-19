@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #717171;
+    overflow: hidden;
+}
+#nav{
+    z-index: 999;
+    position: absolute;
+    /* position: relative; */
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    /* background-color: red; */
+}
+#nav #logo{
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+
+#logo img{
+    width: 30px;   
+}
+#logo h3{
+    font-family: gilroy;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 18px;
+}
+#main #nav a {
+    position: relative;
+    color: #fff;
+    font-size: 1vw;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 2vw;
+    font-family: gilroy;
+    text-transform: uppercase;
+    z-index: 999;
+  }
+#nav i{
+    color: white;
+    border-radius: 50%;
+    border: 1.5px solid white;
+    padding: 5px;
+    margin-left: 70px;
+}
+#left{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+    /* background-color: lightblue; */
+}
+#main #left #dots {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 10%;
+    height: 100px;
+}
+#main #left #dots > .dot {
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+#orange img{
+    width: 100%;
+    height:100%;
+}
+#left h4{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    color: white;
+    font-family: gilroy;
+    font-weight: 400;
+    font-size: 20px;
+}
+#main #left #textbox {
+    position: absolute;
+    right: -15%;
+    width: 45%;
+    z-index: 11;
+    color: white;
+    font-family: gilroy;
+}
+#textbox h1{
+    text-transform: uppercase;
+    font-weight: 550;
+    font-size: 40px;
+}
+#textbox p{
+   margin-top: 20px;
+   font-size: 13px;
+}
+#textbox h3{
+    margin-top: 20px;
+    font-weight: 420;
+    font-size: 25px;
+}
+#textbox button{
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius:5vw;
+    padding: 5px;
+}
+#left i{
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    left: 70%;
+}
+#right{
+ width: 34%;
+  height: 100vh;
+  right: 0;
+  position: absolute;
+  background-image: url(https://morimotoya.com/img/sites/morimotoya/base/gr_73249.jpg);
+  /* background-size: cover; */
+  border-radius: 50% 0 0 50%;
+}
